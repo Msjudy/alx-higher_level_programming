@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-def number_keys(a_dictionary):
+def update_dictionary(a_dictionary, key, value):
     """
-    Return the number of keys in a dictionary
+    a function that replaces or adds key/value in a dictionary.
+    key argument will be always a string
+    value argument will be any type
     """
-    return len(a_dictionary)
+    if key in a_dictionary:
+        a_dictionary[key] = value
+    else:
+        a_dictionary[key] = value
+    return a_dictionary
