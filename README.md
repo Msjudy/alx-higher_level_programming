@@ -1,2 +1,1 @@
-# alx-higher_level_programming
-Learning Python as a beginner
+Working on the Almost a circle project
